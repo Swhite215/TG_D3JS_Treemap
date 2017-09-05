@@ -163,7 +163,10 @@ function main(o, data) {
 
     if (d._children[0]._children[0].key === "Joxos") {
       g.append("image")
-        .attr("src", "../images/character_joxos.JPG");
+        .attr("class", "test-image")
+        .attr("xlink:href", "../images/character_joxos.JPG")
+        .attr("width", "100%")
+        .attr("height", "100%");
     }
 
     if (d._children[0]._children[0].category === "Character") {
