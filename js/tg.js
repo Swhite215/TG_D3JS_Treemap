@@ -19,7 +19,7 @@ function main(o, data) {
 
   // var color = d3.scale.category20c();
   var color = function() {
-    var randomColors = ['rgb(150, 40, 27)','#0e2f44','#ff4040','#6dc066','#31698a','#8a2be2','#c39797','#daa520','#808080','#f6546a','#794044','#EE4000','#8E8E38','#CD2626','#CD5555','#FF7F24','#FF9912','#CDAD00','#9ACD32','#2E8B57','#228B22','#008B8B','#2F4F4F','#6959CD','#EE82EE','rgb(27, 163, 156)','rgb(1, 152, 117)','rgb(52, 73, 94)','rgb(190, 144, 212)','rgb(231, 76, 60)','rgb(210, 77, 87)','rgb(217, 30, 24)','rgb(239, 72, 54)','rgb(207, 0, 15)','rgb(246, 71, 71)','rgb(246, 36, 89)','rgb(102, 51, 153)','rgb(129, 207, 224)','rgb(135, 211, 124)','rgb(0, 177, 106)','rgb(235, 149, 50)','rgb(244, 179, 80)','rgb(211, 84, 0)','rgb(108, 122, 137)','rgb(211, 84, 0)'];
+    var randomColors = ['#191919']
     var index = Math.floor(randomColors.length * Math.random());
 
     return randomColors[index];
@@ -161,6 +161,28 @@ function main(o, data) {
         .attr("dy", "1.0em")
         .text(function(d) { return formatNumber(d.value); });
 
+    if (d._children[0]._children[0].key === "Joxos") {
+      g.append("image")
+        .attr("src", "../images/character_joxos.JPG");
+    }
+
+    if (d._children[0]._children[0].category === "Character") {
+      console.log(d);
+      console.log(d._children[0].age);
+      t.append("tspan")
+        .attr("dy", "1.0em")
+        .text(function(d) { return d._children[0].age; });
+
+      t.append("tspan")
+        .attr("dy", "1.0em")
+        .text(function(d) { return d._children[0].health; });
+
+      t.append("tspan")
+        .attr("dy", "1.0em")
+        .text(function(d) { return d._children[0].mana; });
+    }
+
+
     //Code for displaying percentages
     // t.append("tspan")
     //     .attr("dy", "1.0em")
@@ -172,7 +194,7 @@ function main(o, data) {
         .style("fill", function(d) { return color(d.key); });
 
     function transition(d) {
-
+      // debugger;
       //Don't transition if at lowest nest depth.
       if (d._children[0]._children ===  undefined) {
         return;
@@ -223,7 +245,7 @@ function main(o, data) {
     text.attr("x", function(d) { return x(d.x) + 6; })
         .attr("fill", "white")
         .attr("y", function(d) { return y(d.y) + 6; })
-        .style("opacity", function(d) { return this.getComputedTextLength() < x(d.x + d.dx) - x(d.x) ? 1 : this.getComputedTextLength() - (x(d.x + d.dx) - x(d.x)) > 50 ? 0 : 1; });
+        .style("opacity", function(d) { return this.getComputedTextLength() < x(d.x + d.dx) - x(d.x) ? 1 : 0; });
 
   }
 
@@ -243,8 +265,8 @@ function main(o, data) {
 
   function name(d) {
     return d.parent
-        ? name(d.parent) + " » " + d.key + " (" + formatNumber(d.value) + ")"
-        : d.key + " (" + formatNumber(d.value) + ")";
+        ? name(d.parent) + " » " + d.key
+        : d.key + " ";
   }
 
   function buildDealerList() {
@@ -292,7 +314,7 @@ if (window.location.hash === "") {
     d3.json("genesis_data.json", function(err, res) {
         if (!err) {
             //Create a data variable that is a nested object.
-            var data = d3.nest().key(function(d) { return d.location; }).key(function(d) { return d['category']; }).key(function(d) { return d.key; }).entries(res);
+            var data = d3.nest().key(function(d) { return d.location; }).key(function(d) { return d['category']; }).key(function(d) { return d.key; }).key(function(d) { return d.key; }).entries(res);
 
             shadowData = data;
 
