@@ -49,7 +49,7 @@
 }, {
 	"race": "Treant",
 	"mana": "25",
-	"value": 0,
+	"value": 1,
 	"key": "Mugli the Corrupted Treant",
 	"location": "Mundi Forest",
 	"category": "Monster",
@@ -61,7 +61,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "World Map",
 	"location": "Mundi Forest",
 	"category": "Item",
@@ -73,7 +73,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Slay Mugli",
 	"location": "Mundi Forest",
 	"category": "Quest",
@@ -85,7 +85,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Rose Tree",
 	"location": "Mundi Forest",
 	"category": "Subregion",
@@ -97,7 +97,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Royal Woods",
 	"location": "Mundi Forest",
 	"category": "Subregion",
@@ -109,7 +109,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Mithias Crossing",
 	"location": "Mundi Forest",
 	"category": "Subregion",
@@ -169,7 +169,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Trial of Fire",
 	"location": "Vi Citadel",
 	"category": "Subregion",
@@ -181,7 +181,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Trial of Water",
 	"location": "Vi Citadel",
 	"category": "Subregion",
@@ -193,7 +193,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Trial of Earth",
 	"location": "Vi Citadel",
 	"category": "Subregion",
@@ -205,7 +205,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Trial of Air",
 	"location": "Vi Citadel",
 	"category": "Subregion",
@@ -217,7 +217,7 @@
 }, {
 	"race": "Elemental",
 	"mana": "200",
-	"value": 0,
+	"value": 1,
 	"key": "Ignis",
 	"location": "Vi Citadel",
 	"category": "Monster",
@@ -229,7 +229,7 @@
 }, {
 	"race": "Elemental",
 	"mana": "220",
-	"value": 0,
+	"value": 1,
 	"key": "Glaciem",
 	"location": "Vi Citadel",
 	"category": "Monster",
@@ -241,7 +241,7 @@
 }, {
 	"race": "Elemental",
 	"mana": "110",
-	"value": 0,
+	"value": 1,
 	"key": "Terra",
 	"location": "Vi Citadel",
 	"category": "Monster",
@@ -253,7 +253,7 @@
 }, {
 	"race": "Elemental",
 	"mana": "350",
-	"value": 0,
+	"value": 1,
 	"key": "Aer",
 	"location": "Vi Citadel",
 	"category": "Monster",
@@ -265,7 +265,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Learn the Ropes",
 	"location": "Vi Citadel",
 	"category": "Quest",
@@ -277,7 +277,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Light the Way",
 	"location": "Vi Citadel",
 	"category": "Item",
@@ -349,7 +349,7 @@
 }, {
 	"race": "Human",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Coliseum",
 	"location": "Elgin",
 	"category": "Subregion",
@@ -361,7 +361,7 @@
 }, {
 	"race": "Human",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Farran Meadows",
 	"location": "Elgin",
 	"category": "Subregion",
@@ -373,7 +373,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Assist Herl",
 	"location": "Elgin",
 	"category": "Quest",
@@ -385,7 +385,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Tournament of Arms",
 	"location": "Elgin",
 	"category": "Quest",
@@ -397,7 +397,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "A Murderer in Our Midst",
 	"location": "Elgin",
 	"category": "Quest",
@@ -409,7 +409,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Armadias's Sword",
 	"location": "Elgin",
 	"category": "Item",
@@ -421,7 +421,7 @@
 }, {
 	"race": "Elemental",
 	"mana": "300",
-	"value": 0,
+	"value": 1,
 	"key": "Rousseau",
 	"location": "Elgin",
 	"category": "Monster",
@@ -493,7 +493,7 @@
 }, {
 	"race": "Shi'Kah",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Shi'Kah Tribe",
 	"location": "Herl",
 	"category": "Monster",
@@ -505,7 +505,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Lost Sand Clan",
 	"location": "Herl",
 	"category": "Quest",
@@ -517,7 +517,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Gigas War",
 	"location": "Herl",
 	"category": "Quest",
@@ -529,7 +529,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Infinity Vault",
 	"location": "Herl",
 	"category": "Item",
@@ -541,7 +541,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "True Lunar Pendant",
 	"location": "Herl",
 	"category": "Item",
@@ -637,7 +637,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Train Bandit",
 	"location": "Ecric",
 	"category": "Quest",
@@ -649,7 +649,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Poison in the City",
 	"location": "Ecric",
 	"category": "Quest",
@@ -661,7 +661,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Finding the Edge",
 	"location": "Ecric",
 	"category": "Quest",
@@ -673,7 +673,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Khee`'`vis",
 	"location": "Ecric",
 	"category": "Quest",
@@ -685,7 +685,7 @@
 }, {
 	"race": "Android",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Infected Soul",
 	"location": "Ecric",
 	"category": "Monster",
@@ -697,7 +697,7 @@
 }, {
 	"race": "Human",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Bandits",
 	"location": "Ecric",
 	"category": "Monster",
@@ -709,7 +709,7 @@
 }, {
 	"race": "Alien",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Khee'vis",
 	"location": "Ecric",
 	"category": "Monster",
@@ -721,7 +721,7 @@
 }, {
 	"race": "Core",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "True Aegis Core",
 	"location": "Ecric",
 	"category": "Item",
@@ -733,7 +733,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Ezekiel's Cannon",
 	"location": "Ecric",
 	"category": "Item",
@@ -841,7 +841,7 @@
 }, {
 	"race": "Luxin",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Strength of an Army",
 	"location": "Paragon's Edge",
 	"category": "Item",
@@ -853,7 +853,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Facing Fear Itself",
 	"location": "Paragon's Edge",
 	"category": "Quest",
@@ -865,7 +865,7 @@
 }, {
 	"race": "Luxin",
 	"mana": "Unknown",
-	"value": 0,
+	"value": 1,
 	"key": "Viriliux (First Form)",
 	"location": "Paragon's Edge",
 	"category": "Monster",
@@ -877,7 +877,7 @@
 }, {
 	"race": "Elemental",
 	"mana": "Unknown",
-	"value": 0,
+	"value": 1,
 	"key": "Rousseau",
 	"location": "Paragon's Edge",
 	"category": "Monster",
@@ -889,7 +889,7 @@
 }, {
 	"race": "Human",
 	"mana": "Unknown",
-	"value": 0,
+	"value": 1,
 	"key": "Asheyr",
 	"location": "Paragon's Edge",
 	"category": "Monster",
@@ -901,7 +901,7 @@
 }, {
 	"race": "Andriod",
 	"mana": "Unknown",
-	"value": 0,
+	"value": 1,
 	"key": "Azrael",
 	"location": "Paragon's Edge",
 	"category": "Monster",
@@ -913,7 +913,7 @@
 }, {
 	"race": "Atlantian",
 	"mana": "Unknown",
-	"value": 0,
+	"value": 1,
 	"key": "Garos",
 	"location": "Paragon's Edge",
 	"category": "Monster",
@@ -925,7 +925,7 @@
 }, {
 	"race": "Gigas",
 	"mana": "Unknown",
-	"value": 0,
+	"value": 1,
 	"key": "Tinue",
 	"location": "Paragon's Edge",
 	"category": "Monster",
@@ -1129,7 +1129,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "The Novus War",
 	"location": "Northern Reaches",
 	"category": "Quest",
@@ -1141,7 +1141,7 @@
 }, {
 	"race": "Dragon",
 	"mana": "2000",
-	"value": 0,
+	"value": 1,
 	"key": "Victus the Dragon",
 	"location": "Northern Reaches",
 	"category": "Monster",
@@ -1177,7 +1177,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "Eternity",
 	"location": "Beyond Time",
 	"category": "Item",
@@ -1189,7 +1189,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "The End",
 	"location": "Beyond Time",
 	"category": "Item",
@@ -1201,7 +1201,7 @@
 }, {
 	"race": "unassigned",
 	"mana": "unassigned",
-	"value": 0,
+	"value": 1,
 	"key": "A Passing Hero",
 	"location": "Beyond Time",
 	"category": "Quest",

@@ -289,14 +289,14 @@ if (window.location.hash === "") {
   //Intial Ajax Request
 
   //Current d3.json method
-    d3.json("countries.json", function(err, res) {
+    d3.json("genesis_data.json", function(err, res) {
         if (!err) {
             //Create a data variable that is a nested object.
-            var data = d3.nest().key(function(d) { return d.region; }).key(function(d) { return d['sub-region']; }).key(function(d) {return d['sub-sub-region']}).key(function(d) {return d.key.split("»")[4]}).entries(res);
+            var data = d3.nest().key(function(d) { return d.location; }).key(function(d) { return d['category']; }).key(function(d) { return d.key; }).entries(res);
 
             shadowData = data;
 
-            main({title: "Tier III Data"}, {key: "Total Conversions", values: data});
+            main({title: "Tranquility's Genesis"}, {key: "Game Pieces", values: data});
         }
     });
 }
